@@ -1,0 +1,1175 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@600;700&family=Rufina&family=Sora&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* container */
+.container {
+  width: 100%;
+  max-width: 1448px;
+  margin: 0 auto;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* ..................Home Page.............................. */
+
+/* top bar section*/
+.topbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 26.48px 0 25.52px 0;
+}
+.topbar-right-contents {
+  display: flex;
+  align-items: center;
+}
+/* search box */
+.box {
+  width: 783.61px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(196, 199, 209, 0.25);
+  border: 1px solid rgba(16, 28, 86, 0.1);
+  border-radius: 8px;
+}
+
+.box > img {
+  background: rgba(196, 199, 209, 0.25);
+  padding: 12px;
+}
+
+.search-box {
+  flex: 1;
+  height: 46px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 21px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #c4c7d1;
+  background: rgba(196, 199, 209, 0.25);
+}
+.box input:focus {
+  color: black;
+}
+/* top bar icons */
+.topbar-icons {
+  padding-left: 23px;
+}
+.topbar-icons a {
+  padding-left: 12px;
+}
+
+/* navbar section */
+.navbar-section {
+  padding: 25.19px 0 22.33px 0;
+}
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-right-contents {
+  display: flex;
+  gap: 15.65px;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+.nav-link a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101c56;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.navbar-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101c56;
+  font-family: "Montserrat", sans-serif;
+}
+/* mega menu */
+
+.megamenu {
+  position: absolute;
+  display: none;
+  background-color: #fffffe;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.15);
+  transition: 2s;
+  padding-bottom: 59px;
+}
+.nav-links li:hover .megamenu {
+  /* top: 100%; */
+  display: flex;
+  flex: fit-content;
+  bottom: 53%;
+}
+
+.megamenu-items ul {
+  padding: 12px 52px 8px 32px;
+}
+.megamenu-items ul li {
+  list-style: none;
+  padding: 8px 0;
+}
+.megamenu-items h3 {
+  padding-left: 32px;
+  padding-top: 32px;
+}
+.megamenu-items ul > li > a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Sora", sans-serif;
+  color: #00214d;
+}
+.megamenu-items ul > li > a:hover {
+  color: #ffd803;
+}
+.elegant-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #222222;
+  font-family: "Inter", sans-serif;
+}
+.megamenu-special-button {
+  background: #fffffe;
+  padding: 6px 50px;
+  color: #00214d;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Rufina", serif;
+  border: 1px solid #00ebc7;
+}
+
+/* medical mask section */
+.mask-section-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 245.76px;
+}
+
+.best-seller-label {
+  padding: 10.9px 15px;
+  background: #0f49a1;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+  display: inline-block;
+}
+.main-heading {
+  font-weight: 700;
+  font-size: 54px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 56px;
+  color: #101336;
+}
+.special-heading {
+  color: #3f3caf;
+}
+.description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #afb0b5;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 24px 0 31.91px 0;
+}
+.shop-now-button {
+  background: #ff9b2c;
+  border-radius: 8px;
+  padding: 16px 66px;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Inter", sans-serif;
+}
+
+/* brands */
+.brands-wrapper {
+  padding-top: 118px;
+  padding-bottom: 105px;
+}
+.brands {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* special products */
+.special-products-wrapper {
+  display: flex;
+  gap: 30px;
+}
+.left-part-product {
+  width: 50%;
+  background: #f9f8fe;
+  border-radius: 16px;
+}
+.product-ancohol-gel {
+  position: relative;
+}
+.product-ancohol-gel-description {
+  padding-left: 64px;
+  padding-top: 110px;
+}
+.product-ancohol-gel-description h1 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 81px;
+  font-family: "Montserrat", sans-serif;
+  color: #101336;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+.product-ancohol-gel-description p {
+  padding-bottom: 107px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  color: #afb0b5;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.product-ancohol-gel-description button {
+  margin-bottom: 254px;
+}
+.product-ancohol-gel-img {
+  position: absolute;
+  right: 33px;
+  top: 253px;
+}
+
+.right-part-product {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 35px;
+}
+
+.product-nebulizer,
+.product-pressure-meter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-nebulizer {
+  background: #3f3caf;
+  border-radius: 16px;
+  padding: 81px 65px 0 64px;
+}
+.product-nebulizer h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 24px;
+}
+.product-nebulizer a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ff9b2c;
+  font-family: "Inter", sans-serif;
+}
+.product-nebulizer a > svg,
+.product-pressure-meter a > svg {
+  vertical-align: middle;
+}
+
+.product-pressure-meter {
+  background: #f9f8fe;
+  border-radius: 16px;
+  padding: 81px 65px 0 64px;
+}
+.product-pressure-meter h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #3f3caf;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 24px;
+}
+.product-pressure-meter a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ff9b2c;
+  font-family: "Inter", sans-serif;
+}
+
+/* service icons section */
+.service-icons-section {
+  padding: 86px 0;
+}
+.service-icons-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 88px;
+  padding: 0px 146px;
+}
+
+/* featured products */
+
+.featured-product-wrapper {
+  padding-bottom: 94px;
+}
+.featured-product-wrapper > h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-bottom: 64px;
+  color: #101336;
+}
+.featured-products {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+.featured-product {
+  background: #f9f8fe;
+  border-radius: 8px;
+}
+.featured-product p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #101336;
+  padding: 24px 0 0px 32px;
+}
+.featured-product img {
+  padding: 30px 73.67px 14px 73px;
+}
+.buy-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buy-product img {
+  padding-right: 24px;
+}
+
+/* thumbnail section */
+.thumbnail-section {
+  padding-bottom: 96px;
+}
+.thumbnail-wrapper {
+  background-image: url(../images/pharmacy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-thumbnail {
+  background: linear-gradient(
+    270.09deg,
+    #3f3caf 17.55%,
+    rgba(63, 60, 175, 0) 99.87%
+  );
+  mix-blend-mode: multiply;
+  border-radius: 16px;
+}
+.thumbnail-details {
+  vertical-align: center;
+  padding: 84px 258px 83px 787px;
+}
+.thumbnail-details h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+.thumbnail-details a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+.thumbnail-details a svg {
+  vertical-align: middle;
+}
+
+/* services section */
+.service-section {
+  background: #ffffff;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #e7eaf2;
+  /* margin-top: 96px; */
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.service {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 0 140px;
+}
+.service:nth-child(2),
+.service:nth-child(1) {
+  border-right: 1px solid #e7eaf2;
+}
+
+/* footer section*/
+.footer-section {
+  background-color: #f9f8fe;
+}
+.footer-wrapper {
+  padding: 49px 140px 27px 140px;
+}
+.footer-contents {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #101336;
+  padding-bottom: 30px;
+}
+.footer-content ul li {
+  padding-bottom: 10px;
+}
+.footer-content ul:last-child() {
+  padding-bottom: 0;
+}
+.footer-content ul li a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #101336;
+}
+.footer-content-subscribe > h1 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  letter-spacing: -0.34px;
+  font-family: "Montserrat", sans-serif;
+  color: #101336;
+  padding-bottom: 4px;
+}
+.footer-content-subscribe p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #101336;
+  padding-bottom: 24px;
+}
+.input-div {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 32px;
+}
+.subscribe-input {
+  background: #f7f6fc;
+  border: 1px solid #e7eaf2;
+  border-radius: 4px;
+  padding: 11px 158px 22px 11px;
+}
+.subscribe-btn {
+  background: #3f3caf;
+  border-radius: 4px;
+  padding: 10px 16px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  border: none;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 51px;
+}
+
+/* footer */
+footer {
+  background: #3f3caf;
+}
+footer > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fffffe;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  padding: 17px 0 16px 0;
+}
+
+/* ...................................... */
+/* plp page */
+/* ....................................... */
+
+/* filter and products section */
+.hero-title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 55px;
+  font-family: "Montserrat", sans-serif;
+  color: #00214d;
+  padding: 72px 0 90px 0;
+}
+.all-products-container {
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+}
+.filter-items-list {
+  padding-right: 30px;
+  width: 100%;
+  max-width: 210px;
+}
+.filter-item {
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #eeeeee;
+  padding: 12px 0 4px 8px;
+}
+.filter-item-title {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.filter-item-title h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+}
+.filter-item-title > a > img {
+  width: 10px;
+  /* padding-left: 191px; */
+}
+
+/* custom checkbox */
+/* Customize the label (the container) */
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 32px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #cccccc;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkmark {
+  background-color: #cccccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+  left: 7px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+label {
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+  color: #222222;
+  padding-top: 5px;
+}
+label > span {
+  color: #777777;
+}
+
+/* products list */
+
+.products-items-wrapper {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+
+.product-item-info {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-item-info h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+  padding-bottom: 3px;
+}
+.product-item-info p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  color: #878787;
+}
+.product-item-info button {
+  background: #ffb967;
+  border-radius: 8px;
+  padding: 10px 16px;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+/* pagination section */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-top: 98px;
+  padding-bottom: 120px;
+}
+.pagination a {
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #3f3caf;
+  border-radius: 4px;
+  margin: 0 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #3f3caf;
+}
+
+.pagination a.active {
+  color: #3f3caf;
+  opacity: 0.5;
+  border-radius: 4px;
+  border: 1px solid #3f3caf;
+}
+
+.pagination a:hover:not(.active) {
+  background: #8aa1ed;
+}
+
+/* ............................... */
+/* pdp page */
+/* ................................ */
+.selected-product-section {
+  padding-top: 58.48px;
+}
+.wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.product-img-varients {
+  display: flex;
+  gap: 20px;
+  padding-top: 24px;
+}
+
+.product-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #101336;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 24px;
+}
+.product-price {
+  color: #3f3caf;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 48px;
+}
+.product-description {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #1b2d45;
+  padding-bottom: 48px;
+}
+
+.product-class {
+  color: #1b2d45;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-bottom: 33px;
+}
+.in-stock {
+  color: #00ebc7;
+}
+.colors {
+  display: flex;
+  gap: 9.6px;
+  padding-bottom: 52px;
+}
+.colors > p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #1b2d45;
+}
+.color {
+  border-radius: 25px;
+  width: 32px;
+  height: 32px;
+}
+.dark-blue {
+  background: #0b3948;
+}
+.deep-gray {
+  background: #3f4141;
+}
+.gray {
+  background: #5d6a83;
+}
+.buttons-part {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 12px;
+}
+.buttons-part p {
+  padding: 12px 15.5px;
+}
+.increment-decrement {
+  background: #fffffe;
+  gap: 10px;
+  display: flex;
+  border: 1px solid #3f3caf;
+  justify-content: space-between;
+}
+.add-to-cart-btn {
+  background: #ff9b2c;
+  border-radius: 4px;
+  padding: 16px 115px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Sora";
+  color: #ffffff;
+}
+.like-btn {
+  background: #fffffe;
+  border: 1px solid #3f3caf;
+  padding: 9px 19px;
+}
+
+/* service part */
+.service-part {
+  padding-top: 53px;
+}
+.free-shipping,
+.support,
+.return {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  border-radius: 4px;
+  border-right: 1px solid #e7eaf2;
+  padding-right: 10px;
+}
+.return {
+  border: none !important;
+}
+
+/* about product section */
+
+.about-product-wrapper {
+  padding-top: 80px;
+  padding-bottom: 98px;
+}
+.about-categroy {
+  padding-bottom: 56px;
+}
+.about-categroy ul {
+  display: flex;
+  justify-content: center;
+}
+.about-categroy ul li {
+  padding-right: 56px;
+}
+.about-categroy ul li a {
+  color: #afb0b5;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about-categroy a:hover {
+  color: #3f3caf;
+  border-bottom: 1px solid #3f3caf;
+}
+
+.about-text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #101336;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0 150px 20px 150px;
+}
+
+/* .................... */
+/* Responsive design for mobile (430px) */
+/* ..................... */
+
+@media only screen and (max-width: 430px) {
+  .container {
+    width: 100%;
+  }
+
+
+  /* common style for all page */
+  /* topbar */
+ 
+  .topbar-left-contents {
+    margin: auto;
+  }
+  .topbar-right-contents {
+    display: none;
+  }
+
+  /* navbar */
+  .navbar-wrapper {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+/* megamenu */
+  .nav-links li:hover .megamenu {
+    display: none;
+  }
+
+  /* footer section */
+  .footer-wrapper {
+    padding: 0;
+  }
+  .footer-contents {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-content {
+    text-align: center;
+  }
+  .footer-content h4 {
+    padding-bottom: 10px;
+  }
+  .input-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 32px;
+  }
+  .social-links {
+    justify-content: center;
+  }
+
+  /* service section */
+  .services {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .service {
+    border: none;
+    padding: 0;
+    text-align: center;
+  }
+  .service:nth-child(1),
+  .service:nth-child(2) {
+    border: none;
+  }
+  /* footer */
+  footer {
+    margin-top: 10px;
+  }
+
+  /* .....................home page.........
+  ..................................... */
+
+  /* mask section */
+  .mask-section {
+    padding-top: 20px;
+  }
+  .mask-section-wrapper {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    flex-direction: column;
+  }
+  .left-contents {
+    text-align: center;
+  }
+
+  .right-contents img {
+    width: 100%;
+  }
+
+  /* brands section */
+  .brands-wrapper {
+    padding-top: 20px;
+  }
+  .brands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* special products */
+  .special-products-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .left-part-product {
+    width: 100%;
+  }
+
+  .product-ancohol-gel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .product-ancohol-gel-description p {
+    padding-bottom: 55px;
+  }
+  .product-ancohol-gel img {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .product-ancohol-gel-description button {
+    margin-bottom: 0px;
+  }
+  .right-part-product {
+    width: 100%;
+  }
+  .product-nebulizer,
+  .product-pressure-meter {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  /* services icons section */
+  .service-icons-wrapper {
+    display: flex;
+    gap: 88px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* featured products */
+  .featured-products {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* thumbnail section */
+  .thumbnail-section {
+    width: 100%;
+  }
+  .thumbnail-details {
+    vertical-align: center;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* ............. */
+  /* ..........plp page... */
+  /* ............. */
+
+  /* filter-roducts-section */
+  .hero-title {
+    text-align: center;
+  }
+
+  .all-products-container {
+    gap: 0px;
+  }
+  .filter-items-list {
+    padding: 0 25px 0 10px;
+  }
+
+  .products-items-wrapper {
+    padding-right: 15px;
+  }
+  .product-item-img img {
+    width: 100%;
+  }
+  .pagination {
+    flex-wrap: we;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+
+  /* ..............pdp page........*/
+
+  .wrapper {
+    flex-direction: column;
+  }
+  .product-img img {
+    width: 100%;
+  }
+  .product-img-varients {
+    display: none;
+  }
+  .product-info {
+    padding-left: 8px;
+  }
+  .buttons-part {
+    flex-direction: column;
+  }
+
+  .free-shipping,
+  .support {
+    border: none;
+  }
+  .about-categroy ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .about-categroy ul li a {
+    color: #3f3caf;
+  }
+  .about-text {
+    padding-left: 10px;
+  }
+  .about-text p {
+    padding: 0px;
+  }
+  .thumbnail-section {
+    padding-bottom: 10px;
+  }
+}

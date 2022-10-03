@@ -1,0 +1,10 @@
+/* fonts family styles */
+
+  font-family: "Montserrat", sans-serif;
+
+  font-family: "Source Sans Pro", sans-serif;
+
+  font-family: "Inter", sans-serif;
+
+
+Responsive for mobile (430px) .
